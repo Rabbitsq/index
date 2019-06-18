@@ -1,0 +1,74 @@
+@charset "utf-8";
+.content-c{
+    width: 1280px;
+    height: 327px;
+    padding: 20px 0;
+
+}
+.content-c ul li .sm-img{
+    /*width:125px;*/
+    height: 109px;
+    background:white;
+}
+.content-c ul li .sm-img img{
+    margin:29px 11px;
+}
+.content-c ul li .one-a{
+    position:absolute;
+    color: white;
+    top: 0;
+    display: none;
+}
+.content-c ul li{
+    /*border: 1px solid #eaeaea;*/
+    width:128px;
+    position:relative;
+    float: left;
+    overflow: hidden;
+}
+.content-c ul li:hover .one-a{
+    display: inline-block;
+}
+.content-c ul li .one-a .font-text{
+    width: 78px;
+    padding:37px 24px;
+    background: black;
+    opacity: 0.8;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content-c ul li .one-a .font-2{
+    padding:38px 24px;
+    background: black;
+    opacity: 0.8;
+}
+.content-c ul li .one-a .font-3{
+    padding:38px 24px;
+    background: black;
+    opacity: 0.8;
+}
+.content-c ul li .one-a .font-6{
+    padding:39px 24px;
+    background: black;
+    opacity: 0.8;
+}
+.content-c ul li .one-a .font-10{
+    /*width: 135px;*/
+    padding:39px 27px;
+    background: black;
+    opacity: 0.8;
+}
+.content-c ul li .one-a .font-text span{
+    font-size: 14px;
+}
+.content-c ul li .one-a .font-text .border-radius{
+    background: red;
+    width: 60px;
+    border-radius: 10px;
+    margin: auto;
+}
+.content-c ul li .one-a .font-text .border-radius span{
+    padding: 5px;
+    font-size: 12px;
+}

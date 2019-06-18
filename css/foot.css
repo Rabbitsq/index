@@ -1,0 +1,25 @@
+@charset "utf-8";
+.foot{
+    width:1280px;
+    margin:auto;
+}
+.foot p{
+    padding:5px;
+}
+.foot .a-foot p a{
+    padding:10px;
+}
+.foot .a-foot p a:hover{
+    cursor:pointer;
+    color:red;
+}
+.foot .b-foot p a{
+    padding:10px;
+}
+.foot .b-foot p span{
+    padding:10px;
+}
+.foot .b-foot p a:hover {
+    cursor: pointer;
+    color: red;
+}

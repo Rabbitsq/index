@@ -1,0 +1,124 @@
+@charset "utf-8";
+/*设置头部背景样式·阴影*/
+.box{
+    background-color:#f3f3f3;
+    box-shadow:0 2px 4px 0 rgba(0,0,0,0.30);
+}
+/*设置宽高，字体大小*/
+.head{
+    width:1280px;
+    height:35px;
+    margin:auto;
+    font-size:14px;
+}
+/*设置ul为行快标签*/
+.head ul{
+    display:inline-block;
+}
+.head .a-head li{
+    display:inline-block;
+}
+.head .a-head li .a-head_a .head_a{
+    color:red;
+}
+.head .a-head li .a-head_a a:hover{
+    color:red;
+}
+.head .a-head li .b-head_a a:hover{
+    color:red;
+}
+.head .a-head li .a-head_a,.b-head_a{
+    padding:10px;
+}
+.head .b-head li{
+    display:inline-block;
+}
+.head .b-head li .a-head_a .head-a{
+    color:red;
+}
+.head .b-head li a:hover{
+    color:red;
+}
+.head .b-head li div{
+    padding:10px;
+}
+.head .b-head{
+    padding-left:200px;
+}
+.head .b-head li .b-head_b{
+    position:absolute;
+    display:none;
+}
+.head .b-head li:hover .b-head_b{
+    display:inline-block;
+    background: white;
+}
+.head .b-head li .b-head_b a:hover{
+    cursor:pointer;
+    color:#6e6e6e;
+}
+.head .b-head li .b-head_b ul li{
+    margin-bottom:10px;
+    display:block;
+}
+.head .b-head li .b-head_b ul li:hover{
+    background:gainsboro;
+}
+.head .b-head li .c-head_b{
+    position:absolute;
+    display:none;
+    cursor:pointer;
+}
+.head .b-head li:hover .c-head_b{
+    display: inline-block;
+    background: white;
+}
+.head .b-head li .c-head_b a:hover{
+    color:red;
+}
+.head .b-head li .d-head_b{
+    position:absolute;
+    display: none;
+    cursor:pointer;
+}
+.head .b-head li:hover .d-head_b{
+    display:inline-block;
+    background: white;
+}
+.head li .d-head_b a:hover{
+    cursor:pointer;
+    color:#6e6e6e;
+}
+.head .b-head li .d-head_b a{
+    margin-bottom:10px;
+    display:block;
+}
+.head .b-head li .d-head_b a:hover{
+    background:gainsboro;
+}
+.head .b-head li .f-head_b{
+    position:absolute;
+    display: none;
+    cursor:pointer;
+}
+.head .b-head li:hover .f-head_b{
+    display:inline-block;
+    background: white;
+}
+.head .b-head li .b-head_a:hover.c-head_a:hover,.d-head_a:hover,.f-head_a:hover{
+    background:white;
+}
+.head .b-head .a:hover,.b:hover,.c:hover,.d:hover{
+    background:white;
+}
+.head .b-head li .f-head_b a:hover{
+    cursor:pointer;
+    color:#6e6e6e;
+}
+.head .b-head li .f-head_b ul li{
+    margin-bottom:10px;
+    display:block;
+}
+.head .b-head li .f-head_b a:hover{
+    background:gainsboro;
+}

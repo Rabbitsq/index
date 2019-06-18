@@ -1,0 +1,176 @@
+@charset "utf-8";
+.content-a .left-menus{
+    position: relative;
+}
+.content-a .left-menus ul li a{
+    color:white;
+}
+.content-a .left-menus ul li:hover .a{
+    color:red;
+}
+.content-a .left-menus ul li:hover>.icon-nanzhuang,li:hover>.icon-xiezi,li:hover>.icon-zuanshi,li:hover>.icon-cook{
+    color:blue;
+}
+.content-a .left-menus ul li:hover .b{
+    color:blue;
+}
+.content-a .left-menus ul li:hover>.icon-lingshi,li:hover>.icon-shuiguo,li:hover>.icon-tushuyinxiang{
+    color:orange;
+}
+.content-a .left-menus ul li:hover .c{
+    color:orange;
+}
+.content-a .left-menus ul li{
+    width:160px;
+    padding:6px 0 7px 20px;
+    background: #282926;
+    color: #46748d;
+    opacity:0.9;
+}
+.content-a .left-menus ul li:hover{
+    background:white;
+    color:red;
+}
+.content-a .left-menus ul li a{
+    font-size:13px;
+}
+
+.content-a .left-menus ul .li-1>.div-1,.li-2>.div-2,.li-3>.div-3,.li-4>.div-4,.li-5>.div-5,.li-6>.div-6
+,.li-7>.div-7,.li-8>.div-8,.li-9>.div-9,.li-10>.div-10,.li-11>.div-11,.li-12>.div-12,.li-13>.div-13
+,.li-14>.div-14,.li-15>.div-15,.li-16>.div-16{
+    width:650px;
+    height:500px;
+    display:none;
+    font-size:13px;
+    position:absolute;
+    background:white;
+    left:180px;
+    top:0;
+}
+.content-a .left-menus ul .li-1>.div-1>.divs,.li-2>.div-2>.divs,.li-3>.div-3>.divs,.li-4>.div-4>.divs
+,.li-5>.div-5>.divs,.li-6>.div-6>.divs,.li-7>.div-7>.divs,.li-8>.div-8>.divs,.li-9>.div-9>.divs
+,.li-10>.div-10>.divs,.li-11>.div-11>.divs,.li-12>.div-12>.divs,.li-13>.div-13>.divs,.li-14>.div-14>.divs
+,.li-15>.div-15>.divs,.li-16>.div-16>.divs{
+    padding:14px;
+    color:black;
+    float:left;
+    clear:bottom;
+    font-size:14px;
+}
+.content-a .left-menus ul .li-1:hover>.div-1,.li-2:hover>.div-2,.li-3:hover>.div-3,.li-4:hover>.div-4
+,.li-5:hover>.div-5,.li-6:hover>.div-6,.li-7:hover>.div-7,.li-8:hover>.div-8,.li-9:hover>.div-9
+,.li-10:hover>.div-10,.li-11:hover>.div-11,.li-12:hover>.div-12,.li-13:hover>.div-13,.li-14:hover>.div-14
+,.li-15:hover>.div-15,.li-16:hover>.div-16{
+    display:inline-block;
+}
+.content-a .left-menus ul .li-1>.div-1>.div-text-a,.li-2>.div-2>.div-text-b,.li-3>.div-3>.div-text-c,
+.li-4>.div-4>.div-text-d,.li-5>.div-5>.div-text-e,.li-6>.div-6>.div-text-f,.li-7>.div-7>.div-text-g,
+.li-8>.div-8>.div-text-h,.li-9>.div-9>.div-text-i,.li-10>.div-10>.div-text-j,.li-11>.div-11>.div-text-k,
+.li-12>.div-12>.div-text-l,.li-13>.div-13>.div-text-m,.li-14>.div-14>.div-text-n,.li-15>.div-15>.div-text-o,
+.li-16>.div-16>.div-text-p{
+    padding:14px;
+    overflow:hidden;
+}
+.content-a .left-menus ul .li-1>.div-1>.div-text-a>a,.li-2>.div-2>.div-text-b>a,.li-3>.div-3>.div-text-c>a,
+.li-4>.div-4>.div-text-d>a,.li-5>.div-5>.div-text-e>a,.li-6>.div-6>.div-text-f>a,.li-7>.div-7>.div-text-g>a,
+.li-8>.div-8>.div-text-h>a,.li-9>.div-9>.div-text-i>a,.li-10>.div-10>.div-text-j>a,.li-11>.div-11>.div-text-k>a,
+.li-12>.div-12>.div-text-l>a,.li-13>.div-13>.div-text-m>a,.li-14>.div-14>.div-text-n>a,.li-15>.div-15>.div-text-o>a,
+.li-16>.div-16>.div-text-p>a{
+    padding:4px;
+    font-size:14px;
+    color:#6e6e6e;
+}
+.content-a .left-menus ul .li-1 .div-1 .div-text-a a:hover{
+    color:red;
+}
+.content-a .left-menus ul .li-2 .div-2 .div-text-b a:hover{
+    color:blue;
+}
+.content-a .left-menus ul .li-3 .div-3 .div-text-c a:hover{
+    color:blue;
+}
+.content-a .left-menus ul .li-4 .div-4 .div-text-d a:hover{
+    color:red;
+}
+.content-a .left-menus ul .li-5 .div-5 .div-text-e a:hover{
+    color:blue;
+}
+.content-a .left-menus ul .li-6 .div-6 .div-text-f a:hover{
+    color:red;
+}
+.content-a .left-menus ul .li-7 .div-7 .div-text-g a:hover{
+    color:red;
+}
+.content-a .left-menus ul .li-8 .div-8 .div-text-h a:hover{
+    color:orange;
+}
+.content-a .left-menus ul .li-9 .div-9 .div-text-i a:hover{
+    color:orange;
+}
+.content-a .left-menus ul .li-10 .div-10 .div-text-j a:hover{
+    color:red;
+}
+.content-a .left-menus ul .li-11 .div-11 .div-text-k a:hover{
+    color:red;
+}
+.content-a .left-menus ul .li-12 .div-12 .div-text-l a:hover{
+    color:red;
+}
+.content-a .left-menus ul .li-13 .div-13 .div-text-m a:hover{
+    color:red;
+}
+.content-a .left-menus ul .li-14 .div-14 .div-text-n a:hover{
+    color:red;
+}
+.content-a .left-menus ul .li-15 .div-15 .div-text-o a:hover{
+    color:blue;
+}
+.content-a .left-menus ul .li-16 .div-16 .div-text-p a:hover{
+    color:orange;
+}
+#container {
+    width: 1180px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+#list {
+    width: 8260px;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+}
+#list img {
+    float: left;
+}
+#buttons {
+    position: absolute;
+    height: 10px;
+    width: 140px;
+    z-index: 2;
+    bottom: 20px;
+    left: 520px;
+}
+#buttons span {
+    cursor: pointer;
+    float: left;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background:green;
+    margin-right: 5px;
+}
+#buttons .on {
+    background:yellow;
+}
+.content .content-a .empty #list img{
+    width: 1180px;
+    height: 500px;
+}
+.content .content-a .empty{
+    margin:0 0 0 100px;
+}
+.content .content-a .left-menus{
+    z-index: 1;
+    top: -500px;
+}

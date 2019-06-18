@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.content .left-menu .left-menu_1{
+    padding:10px 60px 5px 20px;
+    margin:20px 0 0;
+    width: 100px;
+    height:25px;
+    color:white;
+    background: red;
+}
+.content .left-menu .left-menu_1{
+    display:inline-block;
+}
+.content .left-menu .left-menu_2{
+    display:inline-block;
+}
+.left-menu{
+    /*background: pink;*/
+}
+.content .left-menu .left-menu_2 a{
+    font-size:17px;
+    padding:6px;
+}
+.content .left-menu .left-menu_2 a img{
+    /*padding:0px 5px;*/
+    transform:translateY(9px);<!-- 图片向下移动9像素 -->
+}

@@ -1,0 +1,110 @@
+@charset "utf-8";
+.content-d .picture .picture-all .picture-right{
+    width:1022px;
+    height:618px;
+    float: left;
+    overflow: hidden;
+    display:block;
+}
+.content-d .picture .picture-all .all{
+    width:1280px;
+    height:3200px;
+    float: left;
+    overflow: hidden;
+    display:block;
+}
+
+.content-d .picture .picture-all .picture-right a{
+    /*width: 230px;*/
+    /*height:300px;*/
+    margin-left:18px;
+    text-align: center;
+    float: left;
+    display: block;
+    border-bottom:15px solid #f4f4f4 ;
+    position: relative;
+    background: white;
+}
+.content-d .picture .picture-all .picture-right a .picture-right-1{
+    width: 235px;
+    height:300px;
+    border: 1px solid white;
+}
+.content-d .picture .picture-all .picture-right a .picture-right-1:hover{
+    border: 1px solid red;
+    background: white;
+    opacity: 0.7;
+}
+.content-d .picture .picture-all .picture-right a .picture-right-1 .picture-right-a{
+    width:50px;
+    height:20px;
+}
+.content-d .picture .picture-all .picture-right a .picture-right-1 .picture-right-b{
+    width:130px;
+    height:40px;
+    font-size:14px;
+    line-height:20px;
+    overflow: hidden;
+    margin:8px auto;
+    color:black;
+}
+.content-d .picture .picture-all .picture-right a .picture-right-1 .picture-right-c{
+    font-size:18px;
+    color:red;
+    line-height:18px;
+    margin: 10px auto;
+}
+.content-d .picture{
+    margin-top: 20px;
+    width:100%;
+    height: 665px;
+    position: relative;
+}
+.content-d .picture .color-mark{
+    display: inline-block;
+    background: black;
+    width:5px;
+    height: 18px;
+    vertical-align: middle;
+}
+.content-d .picture .picture-name{
+    display: inline-block;
+    vertical-align: middle;
+    font-size:18px;
+    color:black;
+    height: 28px;
+    font-family:"Microsoft YaHei UI",SimSun-ExtB,"宋体",sans-serif;
+}
+.content-d .picture .picture-name .picture-title{
+    margin:0 10px;
+    vertical-align: middle;
+}
+.content-d .picture .picture-name .picture-title .picture-sub-name{
+    display: inline-block;
+    font-size:14px;
+    color:black;
+    margin-left: 10px;
+    line-height: 24px;
+    height:18px;
+}
+.content-d .picture .picture-all{
+    width: 100%;
+    /*height: 630px;*/
+    /*background-color:pink;*/
+}
+.content-d .picture .picture-all .picture-left{
+    float: left;
+    display: block;
+}
+.content-d .picture .picture-all .picture-left:hover{
+    background: white;
+    opacity: 0.7;
+}
+.content-d .xin{
+    width: 180px;
+    height: 20px;
+    margin: 20px auto;
+}
+.content-d .xin h2 span{
+    padding:5px;
+}

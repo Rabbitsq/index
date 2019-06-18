@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.content .text{
+    padding:30px 0 0;
+}
+.content .text .text-a form{
+    width:625px;
+    height:40px;
+    padding:20px;
+    margin:auto;
+    /*background:pink;*/
+}
+.content .text .text-a form::after{
+    content:'';
+    clear:both;
+    /*color:red;*/
+}
+.content .text .text-img{
+    float: left;
+    /*top:20px;*/
+    transform:translateY(38px);
+}
+.content .text .text-a form .text_1{
+    width:490px;
+    height:40px;
+    padding:0 0 0 10px;
+    float:left;
+    margin:auto;
+    border:1px solid red;
+    overflow: hidden;
+}
+.content .text .text-a form .text_2{
+    padding:4px 35px;
+    float:left;
+    color:white;
+    border:1px solid red;
+    background:red;
+    overflow:hidden;
+}
+.content .text .text-b{
+    width:620px;
+    margin:auto;
+    /*background:pink;*/
+}
+.content .text .text-b ul li{
+    /*margin:auto;*/
+    padding:0 6px;
+    font-size:14px;
+    display:inline;
+    /*position:absolute;*/
+}
+.content .text .text-b ul li a:hover{
+    cursor:pointer;
+}
+.content .text .text-a form .text_2:hover{
+    cursor:pointer;
+}
